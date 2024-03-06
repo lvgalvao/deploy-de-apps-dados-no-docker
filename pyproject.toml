@@ -8,6 +8,9 @@ packages = [{include = "deploy_de_apps_dados_no_docker"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+streamlit = "^1.31.1"
+duckdb = "^0.10.0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
